@@ -13,3 +13,46 @@
 }
 
 /* your code */
+body {
+  background-color: #f2f0eb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1e3932;
+}
+
+h1 {
+  color: #d4e9e2;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+
+.city-list {
+  display: flex;
+  justify-content: center;
+  margin: auto 20px;
+  flex-direction: column;
+  background-color: #1e3932;
+ 
+}
+
+.city-item {
+  padding: 10px;
+  background-color: #00754a;
+  color: #d4e9e2;
+  margin: 10px;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
